@@ -12,7 +12,9 @@ export default [
       "num_retweet": 355,
       "num_likes": 375,
       "liked": false,
-      "_id":"123"
+      "_id":"123",
+      "disliked": false,
+      "dis_num_likes": 102
     },
     {
       "avatar_location": "https://i.ibb.co/QPqDNS2/mj.jpg",
@@ -27,7 +29,9 @@ export default [
       "num_retweet": 777,
       "num_likes": 222,
       "liked": false,
-      "_id":"234"
+      "_id":"234",
+      "disliked": false,
+      "dis_num_likes": 1022
     }
   ];
   
