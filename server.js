@@ -4,7 +4,7 @@ import helloController from "./controllers/hello-controller.js";
 import tuitsController from "./controllers/tuits-controller.js";
 import userController from "./controllers/user-controller.js";
 import mongoose from "mongoose";
-mongoose.connect('mongodb+srv://root:toor@cluster0.7yrvx.mongodb.net/webdev?retryWrites=true&w=majority');
+mongoose.connect(process.env.DB_CONNECTION_STRING);
 
 const app = express();
 app.use(cors());
